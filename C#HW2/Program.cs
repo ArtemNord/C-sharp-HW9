@@ -3,9 +3,8 @@
 
 int SumElements (int M, int N)
 {
-    int Stop = N;
     int Sum = M;
-    if (M != Stop)
+    if (M != N)
     {
         Sum += SumElements(M + 1, N);
     }
